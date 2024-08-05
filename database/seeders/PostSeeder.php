@@ -12,6 +12,13 @@ class PostSeeder extends Seeder
      */
     public function run(): void
     {
-        //
+        for($i = 1; $i <= 10; $i++){
+            \App\Models\Post::create([
+                'title' => 'Post Title ' . $i,
+                'content' => 'Post Content ' . $i,
+                'date' => now(),
+                'iduser' => 2,
+            ]);
+        }
     }
 }
