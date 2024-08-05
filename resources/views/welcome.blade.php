@@ -17,7 +17,6 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ms-auto" role="search">
                 <a href="{{ route('login') }}" class="me-2">Login</a>
-                <a href="{{ route('register') }}">Register</a>
             </div>
           </div>
         </div>
